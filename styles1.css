@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header .main {
+    background: url(img/bmw-7-series-i7-m70-sp-desktop_clean.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+
+header .navbar .logo {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header .navbar a i {
+    color: black;
+    margin-top: 22px;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+header ul {
+    margin-top: 20px;
+}
+
+header ul li {
+    padding: 10px 40px;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: 20px 30px 20px 30px;
+}
+
+header ul li a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+header ul li a:hover {
+    color: yellow;
+}
+
+header .sponsorship {
+    margin-top: 42%;
+    margin-left: 4%;
+
+}
+
+header .sponsorship h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+header .sponsorship h3 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+header .sponsorship .button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px 70px;
+    cursor: pointer;
+    transition: all 0.5s;
+} 
+
+.container h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    word-spacing: 4px;
+    letter-spacing: 9px;
+    color: lightslategray;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    color: lightslategray;
+    
+}
+
+.container iframe {
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.card-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    margin: 30px;
+    overflow: hidden;
+    background-color: lightgray;
+    border-radius: 4px;
+    width: 325px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.card-content p {
+    color: black;
+    line-height: 1.4;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-content .btn {
+    text-decoration: none;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    color:black;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    margin: auto;
+    max-width: 1170px;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 60px 0;
+}
+
+.footer-column {
+    padding: 0 15px;
+    width: 17%; 
+}
+
+.footer-column h4 {
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 30px;
+    line-height: 1.5px;
+    font-size: 19px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.footer-column h4::before {
+    position: absolute;
+    content: '';
+    background-color: lightgrey;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    box-sizing: border-box;
+
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    display: block;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: slategrey;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.4s ease;
+}
+
+.footer-column ul li a:hover {
+    padding-left: 7px;
+    color: yellow;
+    cursor: pointer;
+}
+
+.footer-column .social-media-links {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 9px 9px 0;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 40%;   
+    color: grey;
+    margin-left: 40px;   
+}
+
+.footer-column .social-media-links a {
+    color: grey;
+}
+
+.footer-column .social-media-links a:hover {
+    color: white;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 770px) {
+    .footer-column {
+        margin-bottom: 40px;
+        width: 50%;
+    }      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
